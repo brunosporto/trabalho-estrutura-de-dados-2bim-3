@@ -51,6 +51,7 @@ Servem para contar:
 
 quantas palavras existem;
 quantas colisões ocorreram.
+
 2. Função Hash
 int funcaoHash(char *palavra) {
     int soma = 0;
@@ -63,6 +64,7 @@ int funcaoHash(char *palavra) {
 }
 
 A função hash transforma uma palavra em um índice.
+
 3. Inserção
 void inserir(char *palavra, char *definicao)
 
@@ -104,6 +106,7 @@ Casa -> Carro
 Depois de inserir "Cachorro":
 
 Cachorro -> Casa -> Carro
+
 4. Busca
 void buscar(char *palavra)
 
